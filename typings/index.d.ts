@@ -5,4 +5,4 @@
  * @param {number} deep The deep of function
  * @returns {object} A new cloned instance.
  */
-export declare function clone<T>(instance: T, deep): (T | any[])
+export declare function clone<T>(instance: T, deep?: number): (T | any[])
