@@ -1,15 +1,15 @@
-import { clone } from 'dist'
+const { clone } = require('../dist')
 
-clone([ 1, 2, 3 ])
+console.log(clone([ 1, 2, 3 ]))
 
-clone({
+console.log(clone({
     username: 'username',
     password: '***',
-})
+}))
 
 class example
 {
     example = 'Example'
 }
 
-clone(example)
+console.log(clone(example))
